@@ -44,42 +44,42 @@ export default function HeroFlats({
         <ul class="panels">
           <li class="panel">
             <a href="#" class="hero--a">
-              <span class="hero--span">Animals</span>
+              <span class="hero--span">doces</span>
             </a>
             <img
               class="hero--img"
-              src="https://assets.codepen.io/1149983/matthew-kerslake-BpH--upRlCs-unsplash-min.jpg"
-              alt="image of lions"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10767/15c591de-8dcc-41d9-9495-a731d71ea528"
+              alt="doces de festa junina"
             />
           </li>
           <li class="panel">
             <a href="#" class="hero--a">
-              <span class="hero--span">History</span>
+              <span class="hero--span">salgados</span>
             </a>
             <img
               class="hero--img"
-              src="https://assets.codepen.io/1149983/sub-buzz-24302-1484257459-8.jpg"
-              alt="Marthin Luther King"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10767/e73261f2-87e4-4f6f-8560-d038970d0b2f"
+              alt="salgados de festa junina"
             />
           </li>
           <li class="panel">
             <a href="#" class="hero--a">
-              <span class="hero--span">Science</span>
+              <span class="hero--span">Bebidas</span>
             </a>
             <img
               class="hero--img"
-              src="https://assets.codepen.io/1149983/spacex-6SbFGnQTE8s-unsplash-min.jpg"
-              alt="image of spaceship"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10767/fc16cb01-e492-4973-b081-df2052257818"
+              alt="bebidas de festa junina"
             />
           </li>
           <li class="panel">
             <a href="#" class="hero--a">
-              <span class="hero--span">Travel</span>
+              <span class="hero--span">DIY</span>
             </a>
             <img
               class="hero--img"
-              src="https://assets.codepen.io/1149983/ian-dooley-hpTH5b6mo2s-unsplash-min.jpg"
-              alt="image of hot air balloons"
+              src="https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10767/eb6afeb6-fcbc-4f62-9be3-6f1182b3f837"
+              alt="decoracao de festa junina"
             />
           </li>
         </ul>
