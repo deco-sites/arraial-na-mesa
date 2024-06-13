@@ -30,8 +30,7 @@ const PLACEMENT = {
 
 export default function HeroFlats({
   title = "Click here to tweak this text however you want.",
-  description =
-    "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+  description = "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   image,
   placement = "left",
   cta = [
@@ -40,61 +39,51 @@ export default function HeroFlats({
   ],
 }: Props) {
   return (
-    <nav class="lg:container lg:mx-auto mx-4">
-      <div class="flex flex-col items-center gap-8">
-        <div
-          class={`flex w-full xl:container xl:mx-auto py-20 mx-5 md:mx-10 z-10 ${
-            image
-              ? PLACEMENT[placement]
-              : "flex-col items-center justify-center text-center"
-          } lg:py-36 gap-12 md:gap-20 items-center`}
-        >
-          {image && (
-            <Image
-              width={640}
-              class="w-full lg:w-1/2 object-fit"
-              sizes="(max-width: 640px) 100vw, 30vw"
-              src={image}
-              alt={image}
-              decoding="async"
-              loading="lazy"
+    <div class="hero--container">
+      <div class="hero--article">
+        <ul class="panels">
+          <li class="panel">
+            <a href="#" class="hero--a">
+              <span class="hero--span">Animals</span>
+            </a>
+            <img
+              class="hero--img"
+              src="https://assets.codepen.io/1149983/matthew-kerslake-BpH--upRlCs-unsplash-min.jpg"
+              alt="image of lions"
             />
-          )}
-          <div
-            class={`mx-6 lg:mx-auto lg:w-full space-y-4 gap-4 ${
-              image
-                ? "lg:w-1/2 lg:max-w-xl"
-                : "flex flex-col items-center justify-center lg:max-w-3xl"
-            }`}
-          >
-            <div
-              class="inline-block lg:text-[80px] text-4xl leading-none font-medium"
-              dangerouslySetInnerHTML={{
-                __html: title,
-              }}
-            >
-            </div>
-            <p class="text-lg md:text-md leading-[150%]">
-              {description}
-            </p>
-            <div class="flex items-center gap-3">
-              {cta?.map((item) => (
-                <a
-                  key={item?.id}
-                  id={item?.id}
-                  href={item?.href}
-                  target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn btn-primary ${
-                    item.outline && "btn-outline"
-                  }`}
-                >
-                  {item?.text}
-                </a>
-              ))}
-            </div>
-          </div>
-        </div>
+          </li>
+          <li class="panel">
+            <a href="#" class="hero--a">
+              <span class="hero--span">History</span>
+            </a>
+            <img
+              class="hero--img"
+              src="https://assets.codepen.io/1149983/sub-buzz-24302-1484257459-8.jpg"
+              alt="Marthin Luther King"
+            />
+          </li>
+          <li class="panel">
+            <a href="#" class="hero--a">
+              <span class="hero--span">Science</span>
+            </a>
+            <img
+              class="hero--img"
+              src="https://assets.codepen.io/1149983/spacex-6SbFGnQTE8s-unsplash-min.jpg"
+              alt="image of spaceship"
+            />
+          </li>
+          <li class="panel">
+            <a href="#" class="hero--a">
+              <span class="hero--span">Travel</span>
+            </a>
+            <img
+              class="hero--img"
+              src="https://assets.codepen.io/1149983/ian-dooley-hpTH5b6mo2s-unsplash-min.jpg"
+              alt="image of hot air balloons"
+            />
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
   );
 }

@@ -22,6 +22,12 @@ export default defineApp(async (_req, ctx) => {
           rel="stylesheet"
         />
 
+        {/*CSS file */}
+        <link
+          href={asset(`/style.css?revision=${revision}`)}
+          rel="stylesheet"
+        />
+
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
       </Head>
