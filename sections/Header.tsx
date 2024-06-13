@@ -10,10 +10,7 @@ export interface CTA {
 }
 
 export interface Nav {
-  logo?: {
-    src?: ImageWidget;
-    alt?: string;
-  };
+  title: string;
   navigation?: {
     links: {
       label?: string;
@@ -24,11 +21,7 @@ export interface Nav {
 }
 
 export default function Header({
-  logo = {
-    src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
-    alt: "Logo",
-  },
+  title ="Arraial",
   navigation = {
     links: [
       { label: "Home", url: "/" },
@@ -49,7 +42,7 @@ export default function Header({
       {/* main content */}
       <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
         <a href="/">
-          <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
+          <h1 class="text-primary font-extrabold text-3xl">{title}</h1>
         </a>
 
         <div class="hidden items-center justify-between lg:flex w-full">
@@ -102,12 +95,7 @@ export default function Header({
 
         <div class="flex flex-col gap-8 min-h-full w-80 bg-base-100 text-base-content">
           <a class="p-4" href="/">
-            <Image
-              src={logo.src || ""}
-              width={100}
-              height={28}
-              alt={logo.alt}
-            />
+            <h1 class="text-primary">{title}</h1>
           </a>
 
           <ul class="menu">
