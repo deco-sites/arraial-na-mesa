@@ -17,7 +17,8 @@
     {
       "__resolveType": "site/sections/LongBanner.tsx",
       "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10767/15c591de-8dcc-41d9-9495-a731d71ea528",
-      "alt": "mesa de doces juninos"
+      "alt": "mesa de doces juninos",
+      "id": "1"
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
@@ -60,7 +61,8 @@
     {
       "__resolveType": "site/sections/LongBanner.tsx",
       "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10767/e73261f2-87e4-4f6f-8560-d038970d0b2f",
-      "alt": "mesa de salgados juninos"
+      "alt": "mesa de salgados juninos",
+      "id": "2"
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
@@ -103,7 +105,8 @@
     {
       "__resolveType": "site/sections/LongBanner.tsx",
       "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10767/fc16cb01-e492-4973-b081-df2052257818",
-      "alt": "mesa de doces juninos"
+      "alt": "mesa de doces juninos",
+      "id": "3"
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
@@ -146,7 +149,8 @@
     {
       "__resolveType": "site/sections/LongBanner.tsx",
       "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10767/eb6afeb6-fcbc-4f62-9be3-6f1182b3f837",
-      "alt": "mesa de decoracao juninos"
+      "alt": "mesa de decoracao juninos",
+      "id": "4"
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
