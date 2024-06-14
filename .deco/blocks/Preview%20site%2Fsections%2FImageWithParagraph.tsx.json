@@ -1,1 +1,8 @@
-{"__resolveType":"site/sections/ImageWithParagraph.tsx"}
+{
+  "__resolveType": "site/sections/ImageWithParagraph.tsx",
+  "placement": "right",
+  "cta": [],
+  "title": "Bem-vindo ao Arraial na Mesa!",
+  "description": "Celebre o São João com os Melhores Sabores e Tradições\nDescubra receitas deliciosas, decorações encantadoras e dicas para tornar sua festa junina inesquecível. Vamos juntos fazer um arraiá de dar água na boca!",
+  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10767/a26a5fc5-2c80-4657-8498-455bdc893ca8"
+}

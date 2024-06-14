@@ -109,15 +109,15 @@ export default function Footer({
     <div class="lg:container mx-auto md:max-w-6xl px-4 pt-16 text-sm">
       <div class="flex flex-col gap-20">
         <div class="flex flex-col gap-6 justify-between lg:flex-row">
-          <div>
+          {/* <div>
             <Image
               src={logo.src || ""}
               width={100}
               height={28}
               alt={logo.alt}
             />
-          </div>
-          <div class="flex gap-9">
+          </div> */}
+          {/* <div class="flex gap-9">
             {links?.map((link) => (
               <div>
                 <h4 class="font-semibold mb-4">{link.title}</h4>
@@ -131,8 +131,8 @@ export default function Footer({
                 ))}
               </div>
             ))}
-          </div>
-          <div class="lg:w-[40%]">
+          </div> */}
+          {/* <div class="lg:w-[40%]">
             <h4 class="font-semibold mb-4">{subscribe?.title}</h4>
             <form class="flex flex-col gap-4">
               <p class="font-normal">{subscribe.description}</p>
@@ -156,9 +156,9 @@ export default function Footer({
               >
               </p>
             </form>
-          </div>
+          </div> */}
         </div>
-        <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
+        <div class="border-primary border-t flex flex-col gap-4 items-center justify-center lg:flex-row lg:items-center py-8">
           <div class="flex flex-col gap-4 items-center lg:flex-row lg:gap-6">
             <a
               href={madeWith?.href}

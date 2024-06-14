@@ -12,22 +12,175 @@
       "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
     },
     {
+      "__resolveType": "Preview site/sections/ImageWithParagraph.tsx"
+    },
+    {
+      "__resolveType": "Preview /sections/LongBanner.tsx"
+    },
+    {
       "__resolveType": "site/sections/BlogPosts.tsx",
       "title": "Doces",
-      "description": "Doces de São João: Um Festival de Sabores"
+      "description": "Doces de São João: Um Festival de Sabores",
+      "posts": [
+        {
+          "video": "https://www.youtube.com/embed/e6NtDQldHPE?si=gH-jbDqfbUmMpvcS",
+          "tags": [
+            "doce",
+            "maça-do-amor",
+            "doce-de-festa"
+          ],
+          "title": "O VERDADEIRO BRIGADEIRO MAÇÃ DO AMOR",
+          "author": "DIKA DA NAKA",
+          "material": "Ingredientes   1 caixa de leite condensado ( 395g) 1 colher (sopa) de manteiga( 20g) 2 colheres (sopa) de creme de leite ( 30g) 50g de chocolate branco  1 maçã ralada.   Calda  2 xícaras (chá) de açúcar refinado (360g) ½ xícara (chá) de água (120ml) 4 colheres (sopa) de vinagre branco (60ml) 1 colher (chá) de corante em pó vermelho bordô (5ml)"
+        },
+        {
+          "tags": [
+            "curau",
+            "cocada",
+            "doce-de-abobora"
+          ],
+          "title": "3 DOCES CAIPIRAS - CURAU, COCADA E DOCE DE ABÓBORA",
+          "author": "DIKA DA NAKA",
+          "video": "https://www.youtube.com/embed/Uijdm7IQ4iw?si=9dGX397ARvE3-AGw"
+        },
+        {
+          "tags": [
+            "paçoca",
+            "amendoim",
+            "copinho"
+          ],
+          "title": "PAÇOQUINHA CREMOSA NO COPINHO",
+          "author": " RECEITAS DA CRIS",
+          "video": "https://www.youtube.com/embed/qqwjWF-JB6I?si=2JpvY8VrpcjQlAp-"
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "site/sections/LongBanner.tsx",
+      "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10767/15c591de-8dcc-41d9-9495-a731d71ea528",
+      "alt": "mesa de doces juninos"
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Salgados",
+      "description": "Delícias Salgadas: Comidinhas Caipiras Irresistíveis",
+      "posts": [
+        {
+          "video": "https://www.youtube.com/embed/vcVX6AtcjNM?si=HW7YzxOLngFvukvJ",
+          "tags": [
+            "milho",
+            "caipira",
+            "carne-seca"
+          ],
+          "title": "Bolinho Caipira",
+          "author": "TUDO GOSTOSO",
+          "material": "Ingredientes   1 caixa de leite condensado ( 395g) 1 colher (sopa) de manteiga( 20g) 2 colheres (sopa) de creme de leite ( 30g) 50g de chocolate branco  1 maçã ralada.   Calda  2 xícaras (chá) de açúcar refinado (360g) ½ xícara (chá) de água (120ml) 4 colheres (sopa) de vinagre branco (60ml) 1 colher (chá) de corante em pó vermelho bordô (5ml)"
+        },
+        {
+          "tags": [
+            "couve",
+            "calabreza",
+            "batata"
+          ],
+          "title": "Delicioso Caldo Verde",
+          "author": "Paola Carosella",
+          "video": "https://www.youtube.com/embed/R6mbd4xl0DI?si=JXHke8tLlzONdg-q"
+        },
+        {
+          "tags": [
+            "paçoca",
+            "amendoim",
+            "copinho"
+          ],
+          "title": "PAÇOQUINHA CREMOSA NO COPINHO",
+          "author": " RECEITAS DA CRIS",
+          "video": "https://www.youtube.com/embed/qqwjWF-JB6I?si=2JpvY8VrpcjQlAp-"
+        }
+      ]
     },
     {
-      "__resolveType": "site/sections/Testimonials.tsx"
+      "__resolveType": "site/sections/LongBanner.tsx",
+      "banner": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10767/fc16cb01-e492-4973-b081-df2052257818",
+      "alt": "mesa de doces juninos"
     },
     {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Bebidas",
+      "description": "Brindes Juninos: Bebidas que Aquecem a Alma",
+      "posts": [
+        {
+          "video": "https://www.youtube.com/embed/MXgJCi5-B2E?si=tkjFCxGtrOarwzmN",
+          "tags": [
+            "cachaça",
+            "canela",
+            "anis"
+          ],
+          "title": "QUENTÃO",
+          "author": "Erick jacquin",
+          "material": "Ingredientes   1 caixa de leite condensado ( 395g) 1 colher (sopa) de manteiga( 20g) 2 colheres (sopa) de creme de leite ( 30g) 50g de chocolate branco  1 maçã ralada.   Calda  2 xícaras (chá) de açúcar refinado (360g) ½ xícara (chá) de água (120ml) 4 colheres (sopa) de vinagre branco (60ml) 1 colher (chá) de corante em pó vermelho bordô (5ml)"
+        },
+        {
+          "tags": [
+            "chocolate",
+            "leite",
+            "cremoso"
+          ],
+          "title": "chocolate quente cremoso",
+          "author": "Rose na real",
+          "video": "https://www.youtube.com/embed/TDClsgBt_jk?si=ofmqjopghvB5VZKf"
+        },
+        {
+          "tags": [
+            "vinho",
+            "maça",
+            "canela"
+          ],
+          "title": "Vinho quente",
+          "author": "evino",
+          "video": "https://www.youtube.com/embed/DNB54K4ba3o?si=CGYu78FLDeD539S5"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Preview /sections/LongBanner.tsx"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "Decorações",
+      "description": "Decoração Junina: Criatividade e Tradição em Cada Detalhe",
+      "posts": [
+        {
+          "video": "https://www.youtube.com/embed/Pe5MGtpPspU?si=zLXQS5eyiONX5Jem",
+          "tags": [
+            "decoracao",
+            "bandeirinha",
+            "chapeu"
+          ],
+          "title": "70 IDEIAS E INSPIRAÇÕES PARA FESTA JUNINA",
+          "author": "Dicas simples",
+          "material": "Ingredientes   1 caixa de leite condensado ( 395g) 1 colher (sopa) de manteiga( 20g) 2 colheres (sopa) de creme de leite ( 30g) 50g de chocolate branco  1 maçã ralada.   Calda  2 xícaras (chá) de açúcar refinado (360g) ½ xícara (chá) de água (120ml) 4 colheres (sopa) de vinagre branco (60ml) 1 colher (chá) de corante em pó vermelho bordô (5ml)"
+        },
+        {
+          "tags": [
+            "bandeirinhas",
+            "mesa",
+            "DIY"
+          ],
+          "title": " DECOREI A MINHA FESTA JUNINA COM 100 REAIS",
+          "author": "Thaccyo",
+          "video": "https://www.youtube.com/embed/wPYUmID7w3I?si=KVzZYFsFGUXytxGb"
+        },
+        {
+          "tags": [
+            "vestido",
+            "DIY",
+            "colorido"
+          ],
+          "title": "DIY - VESTIDO DE FESTA JUNINA (SEM COSTURA)",
+          "author": "dicas da lindi",
+          "video": "https://www.youtube.com/embed/QBdQPGZ_a7A?si=Jp2GUYSjDszS-NdT"
+        }
+      ]
     },
     {
       "__resolveType": "Footer"

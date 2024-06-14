@@ -1,13 +1,13 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
+import type { ImageWidget} from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
+import IframeLoader from "../islands/ytvideo.tsx";
 
 export interface Post {
   title: string;
   author: string;
-  excerpt: string;
-  image: ImageWidget;
-  date: string;
-  readingTime?: string;
+  // material: string;
+  // image?: ImageWidget;
+  video: string;
   tags: string[];
 }
 
@@ -27,65 +27,65 @@ export default function BlogPosts({
     {
       title: "Title of blogpost #1",
       author: "Name of the author",
-      excerpt:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-      image: DEFAULT_IMAGE,
-      date: "01 Apr 2024",
-      readingTime: "10 min",
+      // material:
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+      // image: DEFAULT_IMAGE,
+      video: "",
       tags: ["Tag #1", "Tag #2", "Tag #3"],
     },
     {
-      title: "Title of blogpost #2",
+      title: "Title of blogpost #1",
       author: "Name of the author",
-      excerpt:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-      image: DEFAULT_IMAGE,
-      date: "01 Apr 2024",
-      readingTime: "10 min",
+      // material:
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+      // image: DEFAULT_IMAGE,
+      video: "",
       tags: ["Tag #1", "Tag #2", "Tag #3"],
     },
     {
-      title: "Title of blogpost #3",
+      title: "Title of blogpost #1",
       author: "Name of the author",
-      excerpt:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-      image: DEFAULT_IMAGE,
-      date: "01 Apr 2024",
-      readingTime: "10 min",
+      // material:
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
+      // image: DEFAULT_IMAGE,
+      video: "",
       tags: ["Tag #1", "Tag #2", "Tag #3"],
     },
   ],
 }: Props) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-12 lg:py-28">
-      <div class="space-y-16">
-        <div class="flex flex-col lg:flex-row gap-4 justify-between">
-          <div class="space-y-6 lg:w-1/2">
-            <h2 class="text-4xl leading-snug">
+    <div class="w-screen mx-auto">
+      <div class="w-screen">
+        <div class="flex flex-col lg:flex-row gap-4 justify-center items-center">
+          <div class="p-10">
+            <h2 class="text-5xl leading-snug text-center font-bold text-primary">
               {title}
             </h2>
-            <p class="text-lg">
+            <p class="text-3xl leading-snug text-center font-bold text-primary">
               {description}
             </p>
           </div>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="flex flex-wrap gap-8 items-center justify-center">
           {posts?.map((post) => (
-            <div class="border border-secondary rounded-lg overflow-hidden">
-              <Image
-                width={640}
-                class="w-full object-fit z-10"
-                sizes="(max-width: 640px) 100vw, 30vw"
-                src={post.image}
-                alt={post.image}
-                decoding="async"
-                loading="lazy"
-              />
-              <div class="p-6 space-y-4">
-                <div class="font-semibold">{post.readingTime}</div>
-                <div class="space-y-2">
-                  <h3 class="text-2xl">{post.title}</h3>
-                  <p class="text-base">{post.excerpt}</p>
+            <div class="border border-secondary rounded-lg overflow-hidden w-[477px]">
+              {post.video && (
+                <div>
+                  <IframeLoader
+                    videoLink={post.video}
+                    preload={false}
+                    width={477}
+                    height={311}
+                  />
+                </div>
+              )}
+              <div class="p-6 ">
+                <div class="w-[477px]">
+                  <h3 class="text-2xl uppercase">{post.title}</h3>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                  <span>•</span>
+                  <span>{post.author}</span>
                 </div>
                 <div class="flex flex-wrap gap-2">
                   {post.tags?.map((tag) => (
@@ -93,11 +93,6 @@ export default function BlogPosts({
                       {tag}
                     </div>
                   ))}
-                </div>
-                <div class="flex flex-wrap gap-2">
-                  <span>{post.date}</span>
-                  <span>•</span>
-                  <span>{post.author}</span>
                 </div>
               </div>
             </div>
