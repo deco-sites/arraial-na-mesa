@@ -42,9 +42,9 @@ export default function HeroFlats({
     <div class="hero--container">
       <div class="hero--article">
         <ul class="panels">
-          <li class="panel">
-            <a href="#" class="hero--a">
-              <span class="hero--span">doces</span>
+          <li class="panel border-r-4 border-secondary">
+            <a href="#" class="hero--a ">
+              <span class="hero--span ">doces</span>
             </a>
             <img
               class="hero--img"
@@ -52,7 +52,7 @@ export default function HeroFlats({
               alt="doces de festa junina"
             />
           </li>
-          <li class="panel">
+          <li class="panel border-r-4 border-secondary">
             <a href="#" class="hero--a">
               <span class="hero--span">salgados</span>
             </a>
@@ -62,7 +62,7 @@ export default function HeroFlats({
               alt="salgados de festa junina"
             />
           </li>
-          <li class="panel">
+          <li class="panel border-r-4 border-secondary">
             <a href="#" class="hero--a">
               <span class="hero--span">Bebidas</span>
             </a>

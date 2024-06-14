@@ -10,7 +10,8 @@ export interface CTA {
 }
 
 export interface Nav {
-  title: string;
+  title?: string;
+  logo?: ImageWidget;
   navigation?: {
     links: {
       label?: string;
@@ -21,7 +22,8 @@ export interface Nav {
 }
 
 export default function Header({
-  title ="Arraial",
+  title = "Arraial",
+  logo="",
   navigation = {
     links: [
       { label: "Home", url: "/" },
@@ -36,15 +38,15 @@ export default function Header({
   },
 }: Nav) {
   return (
-    <nav class="drawer drawer-end">
+    <nav class="w-screen border-b-8 border-secondary">
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
-      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
-        <a href="/">
-          <h1 class="text-primary font-extrabold text-3xl">{title}</h1>
+      <div class=" drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-center py-4 ">
+        <a href="/" class="w-[800px] h-auto">
+          <Image src={logo || ""} width={1277} height={346} alt={title || "logo"} />
         </a>
-
+        {/* 
         <div class="hidden items-center justify-between lg:flex w-full">
           <ul class="flex">
             {navigation.links.map((link) => (
@@ -81,7 +83,7 @@ export default function Header({
           class="flex lg:hidden btn btn-ghost drawer-button"
         >
           <Icon id="Bars3" size={24} strokeWidth={0.1} />
-        </label>
+        </label> */}
       </div>
 
       {/* sidebar */}
