@@ -54,7 +54,7 @@ export default function BlogPosts({
   ],
 }: Props) {
   return (
-    <div class="w-screen mx-auto">
+    <div class="w-screen mx-auto mb-16">
       <div class="w-screen">
         <div class="flex flex-col lg:flex-row gap-4 justify-center items-center">
           <div class="p-10">
@@ -81,9 +81,9 @@ export default function BlogPosts({
               )}
               <div class="p-6 ">
                 <div class="w-[477px]">
-                  <h3 class="text-2xl uppercase">{post.title}</h3>
+                  <h3 class="text-2xl uppercase h-20 py-2">{post.title}</h3>
                 </div>
-                <div class="flex flex-wrap gap-2">
+                <div class="flex flex-wrap gap-2 pt-2">
                   <span>•</span>
                   <span>{post.author}</span>
                 </div>

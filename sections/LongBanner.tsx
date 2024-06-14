@@ -12,15 +12,16 @@ interface Props {
    * @description Descrição da imagem para acessibilidade.
    */
   alt?: string;
+  id: string;
 }
 
-export default function Section({ banner, alt }: Props) {
+export default function Section({ banner, alt, id }: Props) {
   return (
-    <div>
+    <div id={id}>
       <Image
-        class="mx-auto w-[1140px] h-[195px] object-cover object-bottom"
+        class="mx-auto w-[1250px] h-[195px] object-cover object-bottom"
         src={banner || ""}
-        width={1140}
+        width={1250}
         height={195}
         alt={alt}
       />

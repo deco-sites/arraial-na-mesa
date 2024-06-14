@@ -43,7 +43,7 @@ export default function HeroFlats({
       <div class="hero--article">
         <ul class="panels">
           <li class="panel border-r-4 border-secondary">
-            <a href="#" class="hero--a ">
+            <a href="#1" class="hero--a ">
               <span class="hero--span ">doces</span>
             </a>
             <img
@@ -53,7 +53,7 @@ export default function HeroFlats({
             />
           </li>
           <li class="panel border-r-4 border-secondary">
-            <a href="#" class="hero--a">
+            <a href="#2" class="hero--a">
               <span class="hero--span">salgados</span>
             </a>
             <img
@@ -63,7 +63,7 @@ export default function HeroFlats({
             />
           </li>
           <li class="panel border-r-4 border-secondary">
-            <a href="#" class="hero--a">
+            <a href="#3" class="hero--a">
               <span class="hero--span">Bebidas</span>
             </a>
             <img
@@ -73,7 +73,7 @@ export default function HeroFlats({
             />
           </li>
           <li class="panel">
-            <a href="#" class="hero--a">
+            <a href="#4" class="hero--a">
               <span class="hero--span">DIY</span>
             </a>
             <img
